@@ -8,9 +8,9 @@ export default async function OrganizationPage({ params }: { params: Promise<{ s
     });
 
     return (
-        <div className="p-4">
+        <div className="min-w-0">
             <h1>organization: {slug}</h1>
-            <h1>session information: {JSON.stringify(session)}</h1>
+            <pre className="overflow-x-auto text-sm whitespace-pre-wrap break-all">{JSON.stringify(session, null, 2)}</pre>
         </div>
     );
 }
