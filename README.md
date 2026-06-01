@@ -7,40 +7,56 @@
 </p>
 
 <p align="center">
-  <em>Open-source ticketing serving those who serve.</em>
+  <strong>Free, open-source ticketing for schools, non-profits, and community venues.</strong>
 </p>
 
 <p align="center">
-  <a href="https://openboxoffice.org">Website</a>
+  <a href="https://openboxoffice.org">Website</a> ·
+  <a href="https://support.openboxoffice.org">Support</a> ·
+  <a href="mailto:hello@openboxoffice.org">Contact</a>
 </p>
 
 ---
 
-> [!WARNING]
-> This project is a work in progress and not yet ready for use.
+## About
 
-## Development Setup
+OpenBoxOffice is a community-driven ticketing platform built for organizations that shouldn't have to pay premium fees just to sell tickets to their own events.
 
-The following steps assume that you have Node.js, Bun, and Docker installed.
+Whether you're running a school play, a PTA fundraiser, or a local concert series, OpenBoxOffice gives you a straightforward way to manage events and sell tickets—without proprietary lock-in, hidden charges, or unnecessary complexity.
 
-```bash
-# 1. Install packages
-bun install
+**No platform fees. No ticket fees. Open source, forever.**
 
-# 2. Start service dependencies with Docker
-docker compose up -d
+## Who it's for
 
-# 3. Run Drizzle SQL migrations
-bun run db:migrate
+- **Schools & PTAs** — Sell tickets to plays, dances, and fundraisers without eating into your budget.
+- **Non-profits & community groups** — Keep more of every dollar for the mission, not the middleman.
+- **Local venues** — Run your box office your way, with software you can trust and customize.
 
-# 4. Start the Next.js development server
-bun run dev
-```
+## What we believe
 
-Mailpit is exposed at `http://localhost:8025`. Auth emails use React Email templates, but delivery is disabled unless `SMTP_HOST`, `SMTP_PORT`, and `SMTP_FROM` are explicitly set in your env.
+| | |
+| --- | --- |
+| **Open** | Transparent, community-driven, and free to use, study, and improve. |
+| **Fair** | No fees to use the software or purchase tickets. Period. |
+| **Simple** | Easy enough for a treasurer or volunteer—no technical background required. |
+| **Reliable** | Built to be dependable when your audience is counting on you. |
+| **Yours** | Self-host, customize, or walk away. You're never locked in. |
+
+## Status
+
+We're actively building toward our first public release, expected **Q3 2026**. OpenBoxOffice isn't ready for production use yet, but we're sharing our progress openly as we go.
+
+Follow along at [openboxoffice.org](https://openboxoffice.org) for updates, or reach out at [hello@openboxoffice.org](mailto:hello@openboxoffice.org) with ideas and feedback.
+
+## Get involved
+
+Have a feature in mind or want to help shape the project? We'd love to hear from you.
+
+- **Ideas & feedback** — [hello@openboxoffice.org](mailto:hello@openboxoffice.org)
+- **Issues & contributions** — Open a discussion or pull request on GitHub
 
 ---
 
 <p align="center">
-  <sub>Made with ❤️ for community venues everywhere</sub>
+  <sub>Made with care for community venues everywhere.</sub>
 </p>
